@@ -17,7 +17,6 @@ class ProductListViewState extends ConsumerState<ProductListView> {
     final products = ref.watch(productProvider);
 
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 255, 243, 231),
       appBar: AppBar(
         title: const Text('Search Products'),
       ),

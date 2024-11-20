@@ -4,7 +4,7 @@ import 'package:logger/logger.dart';
 import '../models/product.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://127.0.0.1:8016/products/';
+  static const String baseUrl = 'http://127.0.0.1:8002/products/';
 
   Future<List<Product>> fetchProductByName(String productName) async {
     try {
